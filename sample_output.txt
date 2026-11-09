@@ -1,0 +1,581 @@
+Welcome to BOUTIQUE PRO. Sample products are loaded for demonstration.
+(Data is kept in memory only and is cleared when you exit.)
+
+==============================================
+   BOUTIQUE PRO - Smart Inventory Management
+==============================================
+   1. Add Product
+   2. View All Products
+   3. Edit Product
+   4. Delete Product
+   5. Add Stock
+   6. Remove Stock
+   7. Search Product
+   8. Low Stock Products
+   9. Out of Stock Products
+  10. Record Sales and Generate Bill
+  11. Sales Report
+  12. Inventory Report
+  13. Stock Transaction History
+  14. Add Employee
+  15. View Employees
+  16. Exit
+==============================================
+> 
+=== ALL PRODUCTS ===
+--------------------------------------------------------------------------------------------------------
+ID       Name                     Type         Size   Colour          Price   Qty   Min  Status       
+--------------------------------------------------------------------------------------------------------
+P001     Kanjivaram Silk Saree    Ready-made   Free   Maroon        8500.00    12     4  IN STOCK     
+P002     Cotton Printed Kurti     Ready-made   M      Teal           749.00     3     5  LOW STOCK    
+P003     Linen Formal Shirt       Ready-made   L      White         1299.00    20     6  IN STOCK     
+P004     Party Wear Dress         Ready-made   S      Navy          2499.00     0     3  OUT OF STOCK 
+P005     Pure Cotton Fabric (per. Fabric       NA     Cream          320.00    85    20  IN STOCK     
+P006     Kids Frock               Ready-made   6Y     Pink           899.00     9     4  IN STOCK     
+P007     Pearl Necklace Set       Accessories  NA     Ivory          650.00     2     5  LOW STOCK    
+P008     Leather Belt             Accessories  34     Brown          499.00    15     5  IN STOCK     
+Total products: 8
+
+==============================================
+   BOUTIQUE PRO - Smart Inventory Management
+==============================================
+   1. Add Product
+   2. View All Products
+   3. Edit Product
+   4. Delete Product
+   5. Add Stock
+   6. Remove Stock
+   7. Search Product
+   8. Low Stock Products
+   9. Out of Stock Products
+  10. Record Sales and Generate Bill
+  11. Sales Report
+  12. Inventory Report
+  13. Stock Transaction History
+  14. Add Employee
+  15. View Employees
+  16. Exit
+==============================================
+> 
+=== SEARCH PRODUCT ===
+Enter Product ID or part of the name: --------------------------------------------------------------------------------------------------------
+ID       Name                     Type         Size   Colour          Price   Qty   Min  Status       
+--------------------------------------------------------------------------------------------------------
+P001     Kanjivaram Silk Saree    Ready-made   Free   Maroon        8500.00    12     4  IN STOCK     
+1 match(es) found.
+
+==============================================
+   BOUTIQUE PRO - Smart Inventory Management
+==============================================
+   1. Add Product
+   2. View All Products
+   3. Edit Product
+   4. Delete Product
+   5. Add Stock
+   6. Remove Stock
+   7. Search Product
+   8. Low Stock Products
+   9. Out of Stock Products
+  10. Record Sales and Generate Bill
+  11. Sales Report
+  12. Inventory Report
+  13. Stock Transaction History
+  14. Add Employee
+  15. View Employees
+  16. Exit
+==============================================
+> 
+=== RECORD SALE & GENERATE BILL ===
+Product ID:   Kanjivaram Silk Saree - Rs. 8500.00 - available: 12
+Quantity to sell: Customer name: 
+  ==========================================
+               BOUTIQUE PRO
+            Customer Invoice
+  ==========================================
+  Bill No  : S001
+  Date     : 09-11-2026 13:16
+  Customer : Anita
+  ------------------------------------------
+  Item     : Kanjivaram Silk Saree (P001)
+  Quantity : 2
+  Price    : Rs. 8500.00
+  ------------------------------------------
+  TOTAL    : Rs. 17000.00
+  ==========================================
+        Thank you for shopping with us!
+
+
+==============================================
+   BOUTIQUE PRO - Smart Inventory Management
+==============================================
+   1. Add Product
+   2. View All Products
+   3. Edit Product
+   4. Delete Product
+   5. Add Stock
+   6. Remove Stock
+   7. Search Product
+   8. Low Stock Products
+   9. Out of Stock Products
+  10. Record Sales and Generate Bill
+  11. Sales Report
+  12. Inventory Report
+  13. Stock Transaction History
+  14. Add Employee
+  15. View Employees
+  16. Exit
+==============================================
+> 
+=== RECORD SALE & GENERATE BILL ===
+Product ID:   [ERROR] 'Party Wear Dress' is out of stock.
+
+==============================================
+   BOUTIQUE PRO - Smart Inventory Management
+==============================================
+   1. Add Product
+   2. View All Products
+   3. Edit Product
+   4. Delete Product
+   5. Add Stock
+   6. Remove Stock
+   7. Search Product
+   8. Low Stock Products
+   9. Out of Stock Products
+  10. Record Sales and Generate Bill
+  11. Sales Report
+  12. Inventory Report
+  13. Stock Transaction History
+  14. Add Employee
+  15. View Employees
+  16. Exit
+==============================================
+> 
+=== REMOVE STOCK ===
+Product ID:   Cotton Printed Kurti - current stock: 3
+Quantity to remove:   [ERROR] Cannot remove 10 unit(s); only 3 available.
+
+==============================================
+   BOUTIQUE PRO - Smart Inventory Management
+==============================================
+   1. Add Product
+   2. View All Products
+   3. Edit Product
+   4. Delete Product
+   5. Add Stock
+   6. Remove Stock
+   7. Search Product
+   8. Low Stock Products
+   9. Out of Stock Products
+  10. Record Sales and Generate Bill
+  11. Sales Report
+  12. Inventory Report
+  13. Stock Transaction History
+  14. Add Employee
+  15. View Employees
+  16. Exit
+==============================================
+> 
+=== REMOVE STOCK ===
+Product ID:   Cotton Printed Kurti - current stock: 3
+Quantity to remove:   [OK] Removed 1 unit(s). Remaining stock: 2 (LOW STOCK)
+
+==============================================
+   BOUTIQUE PRO - Smart Inventory Management
+==============================================
+   1. Add Product
+   2. View All Products
+   3. Edit Product
+   4. Delete Product
+   5. Add Stock
+   6. Remove Stock
+   7. Search Product
+   8. Low Stock Products
+   9. Out of Stock Products
+  10. Record Sales and Generate Bill
+  11. Sales Report
+  12. Inventory Report
+  13. Stock Transaction History
+  14. Add Employee
+  15. View Employees
+  16. Exit
+==============================================
+> 
+=== ADD STOCK ===
+Product ID:   Cotton Printed Kurti - current stock: 2
+Quantity to add:   [OK] Added 5 unit(s). Remaining stock: 7 (IN STOCK)
+
+==============================================
+   BOUTIQUE PRO - Smart Inventory Management
+==============================================
+   1. Add Product
+   2. View All Products
+   3. Edit Product
+   4. Delete Product
+   5. Add Stock
+   6. Remove Stock
+   7. Search Product
+   8. Low Stock Products
+   9. Out of Stock Products
+  10. Record Sales and Generate Bill
+  11. Sales Report
+  12. Inventory Report
+  13. Stock Transaction History
+  14. Add Employee
+  15. View Employees
+  16. Exit
+==============================================
+> 
+=== ADD PRODUCT ===
+Product ID:   [ERROR] A product with ID 'P001' already exists. Product not added.
+
+==============================================
+   BOUTIQUE PRO - Smart Inventory Management
+==============================================
+   1. Add Product
+   2. View All Products
+   3. Edit Product
+   4. Delete Product
+   5. Add Stock
+   6. Remove Stock
+   7. Search Product
+   8. Low Stock Products
+   9. Out of Stock Products
+  10. Record Sales and Generate Bill
+  11. Sales Report
+  12. Inventory Report
+  13. Stock Transaction History
+  14. Add Employee
+  15. View Employees
+  16. Exit
+==============================================
+> 
+=== ADD PRODUCT ===
+Product ID: Product Name: Category (e.g. Saree, Kurti, Shirt): Gender (Men/Women/Kids): Product Type (Ready-made/Fabric/Accessories): Size: Colour: Price (Rs.):   [ERROR] Price cannot be negative.
+Price (Rs.): Available Quantity:   [ERROR] Negative values are not allowed.
+Available Quantity: Minimum Stock Level:   [OK] Product 'Silk Dupatta' added successfully. Status: IN STOCK
+
+==============================================
+   BOUTIQUE PRO - Smart Inventory Management
+==============================================
+   1. Add Product
+   2. View All Products
+   3. Edit Product
+   4. Delete Product
+   5. Add Stock
+   6. Remove Stock
+   7. Search Product
+   8. Low Stock Products
+   9. Out of Stock Products
+  10. Record Sales and Generate Bill
+  11. Sales Report
+  12. Inventory Report
+  13. Stock Transaction History
+  14. Add Employee
+  15. View Employees
+  16. Exit
+==============================================
+> 
+=== DELETE PRODUCT ===
+Enter Product ID to delete: Delete 'Pure Cotton Fabric (per m)'? (yes/no):   Deletion cancelled.
+
+==============================================
+   BOUTIQUE PRO - Smart Inventory Management
+==============================================
+   1. Add Product
+   2. View All Products
+   3. Edit Product
+   4. Delete Product
+   5. Add Stock
+   6. Remove Stock
+   7. Search Product
+   8. Low Stock Products
+   9. Out of Stock Products
+  10. Record Sales and Generate Bill
+  11. Sales Report
+  12. Inventory Report
+  13. Stock Transaction History
+  14. Add Employee
+  15. View Employees
+  16. Exit
+==============================================
+>   [ERROR] Invalid choice. Please enter a number from 1 to 16.
+
+==============================================
+   BOUTIQUE PRO - Smart Inventory Management
+==============================================
+   1. Add Product
+   2. View All Products
+   3. Edit Product
+   4. Delete Product
+   5. Add Stock
+   6. Remove Stock
+   7. Search Product
+   8. Low Stock Products
+   9. Out of Stock Products
+  10. Record Sales and Generate Bill
+  11. Sales Report
+  12. Inventory Report
+  13. Stock Transaction History
+  14. Add Employee
+  15. View Employees
+  16. Exit
+==============================================
+>   [ERROR] Invalid choice. Please enter a number from 1 to 16.
+
+==============================================
+   BOUTIQUE PRO - Smart Inventory Management
+==============================================
+   1. Add Product
+   2. View All Products
+   3. Edit Product
+   4. Delete Product
+   5. Add Stock
+   6. Remove Stock
+   7. Search Product
+   8. Low Stock Products
+   9. Out of Stock Products
+  10. Record Sales and Generate Bill
+  11. Sales Report
+  12. Inventory Report
+  13. Stock Transaction History
+  14. Add Employee
+  15. View Employees
+  16. Exit
+==============================================
+> 
+=== LOW STOCK PRODUCTS ===
+--------------------------------------------------------------------------------------------------------
+ID       Name                     Type         Size   Colour          Price   Qty   Min  Status       
+--------------------------------------------------------------------------------------------------------
+P007     Pearl Necklace Set       Accessories  NA     Ivory          650.00     2     5  LOW STOCK    
+1 product(s) need restocking soon.
+
+==============================================
+   BOUTIQUE PRO - Smart Inventory Management
+==============================================
+   1. Add Product
+   2. View All Products
+   3. Edit Product
+   4. Delete Product
+   5. Add Stock
+   6. Remove Stock
+   7. Search Product
+   8. Low Stock Products
+   9. Out of Stock Products
+  10. Record Sales and Generate Bill
+  11. Sales Report
+  12. Inventory Report
+  13. Stock Transaction History
+  14. Add Employee
+  15. View Employees
+  16. Exit
+==============================================
+> 
+=== OUT OF STOCK PRODUCTS ===
+--------------------------------------------------------------------------------------------------------
+ID       Name                     Type         Size   Colour          Price   Qty   Min  Status       
+--------------------------------------------------------------------------------------------------------
+P004     Party Wear Dress         Ready-made   S      Navy          2499.00     0     3  OUT OF STOCK 
+1 product(s) are out of stock.
+
+==============================================
+   BOUTIQUE PRO - Smart Inventory Management
+==============================================
+   1. Add Product
+   2. View All Products
+   3. Edit Product
+   4. Delete Product
+   5. Add Stock
+   6. Remove Stock
+   7. Search Product
+   8. Low Stock Products
+   9. Out of Stock Products
+  10. Record Sales and Generate Bill
+  11. Sales Report
+  12. Inventory Report
+  13. Stock Transaction History
+  14. Add Employee
+  15. View Employees
+  16. Exit
+==============================================
+> 
+=== INVENTORY REPORT ===
+  Total number of products : 9
+  Total available quantity : 158
+  Total inventory value    : Rs. 164799.00
+  Low-stock products       : 1
+  Out-of-stock products    : 1
+
+=== LOW STOCK PRODUCTS ===
+--------------------------------------------------------------------------------------------------------
+ID       Name                     Type         Size   Colour          Price   Qty   Min  Status       
+--------------------------------------------------------------------------------------------------------
+P007     Pearl Necklace Set       Accessories  NA     Ivory          650.00     2     5  LOW STOCK    
+1 product(s) need restocking soon.
+
+=== OUT OF STOCK PRODUCTS ===
+--------------------------------------------------------------------------------------------------------
+ID       Name                     Type         Size   Colour          Price   Qty   Min  Status       
+--------------------------------------------------------------------------------------------------------
+P004     Party Wear Dress         Ready-made   S      Navy          2499.00     0     3  OUT OF STOCK 
+1 product(s) are out of stock.
+
+==============================================
+   BOUTIQUE PRO - Smart Inventory Management
+==============================================
+   1. Add Product
+   2. View All Products
+   3. Edit Product
+   4. Delete Product
+   5. Add Stock
+   6. Remove Stock
+   7. Search Product
+   8. Low Stock Products
+   9. Out of Stock Products
+  10. Record Sales and Generate Bill
+  11. Sales Report
+  12. Inventory Report
+  13. Stock Transaction History
+  14. Add Employee
+  15. View Employees
+  16. Exit
+==============================================
+> 
+=== STOCK TRANSACTION HISTORY ===
+Txn      Product  Type          Qty  Date
+--------------------------------------------------
+T001     P001     STOCK-OUT       2  09-11-2026 13:16
+T002     P002     STOCK-OUT       1  09-11-2026 13:16
+T003     P002     STOCK-IN        5  09-11-2026 13:16
+T004     P009     STOCK-IN       10  09-11-2026 13:16
+Total transactions: 4
+
+==============================================
+   BOUTIQUE PRO - Smart Inventory Management
+==============================================
+   1. Add Product
+   2. View All Products
+   3. Edit Product
+   4. Delete Product
+   5. Add Stock
+   6. Remove Stock
+   7. Search Product
+   8. Low Stock Products
+   9. Out of Stock Products
+  10. Record Sales and Generate Bill
+  11. Sales Report
+  12. Inventory Report
+  13. Stock Transaction History
+  14. Add Employee
+  15. View Employees
+  16. Exit
+==============================================
+> 
+=== ADD EMPLOYEE ===
+Employee ID:   [ERROR] An employee with ID 'E002' already exists.
+
+==============================================
+   BOUTIQUE PRO - Smart Inventory Management
+==============================================
+   1. Add Product
+   2. View All Products
+   3. Edit Product
+   4. Delete Product
+   5. Add Stock
+   6. Remove Stock
+   7. Search Product
+   8. Low Stock Products
+   9. Out of Stock Products
+  10. Record Sales and Generate Bill
+  11. Sales Report
+  12. Inventory Report
+  13. Stock Transaction History
+  14. Add Employee
+  15. View Employees
+  16. Exit
+==============================================
+> 
+=== ADD EMPLOYEE ===
+Employee ID: Employee Name: Role (Manager/Designer/Accountant/Tailor/Salesperson):   [OK] Employee 'Ravi Kumar' added as Tailor.
+
+==============================================
+   BOUTIQUE PRO - Smart Inventory Management
+==============================================
+   1. Add Product
+   2. View All Products
+   3. Edit Product
+   4. Delete Product
+   5. Add Stock
+   6. Remove Stock
+   7. Search Product
+   8. Low Stock Products
+   9. Out of Stock Products
+  10. Record Sales and Generate Bill
+  11. Sales Report
+  12. Inventory Report
+  13. Stock Transaction History
+  14. Add Employee
+  15. View Employees
+  16. Exit
+==============================================
+> 
+=== EMPLOYEES ===
+  ID       Name                     Role        
+  --------------------------------------------
+  E001     Meera Nair               Manager     
+  E002     Arjun Rao                Salesperson 
+  E003     Sana Iqbal               Designer    
+  E004     Ravi Kumar               Tailor      
+Total employees: 4
+
+==============================================
+   BOUTIQUE PRO - Smart Inventory Management
+==============================================
+   1. Add Product
+   2. View All Products
+   3. Edit Product
+   4. Delete Product
+   5. Add Stock
+   6. Remove Stock
+   7. Search Product
+   8. Low Stock Products
+   9. Out of Stock Products
+  10. Record Sales and Generate Bill
+  11. Sales Report
+  12. Inventory Report
+  13. Stock Transaction History
+  14. Add Employee
+  15. View Employees
+  16. Exit
+==============================================
+> 
+=== SALES REPORT ===
+Sale     Prod     Name                      Qty      Price        Total  Date
+------------------------------------------------------------------------------------------------------
+S001     P001     Kanjivaram Silk Saree       2    8500.00     17000.00  09-11-2026 13:16
+------------------------------------------------------------------------------------------------------
+Total sales: 1   Units sold: 2
+TOTAL REVENUE: Rs. 17000.00
+
+==============================================
+   BOUTIQUE PRO - Smart Inventory Management
+==============================================
+   1. Add Product
+   2. View All Products
+   3. Edit Product
+   4. Delete Product
+   5. Add Stock
+   6. Remove Stock
+   7. Search Product
+   8. Low Stock Products
+   9. Out of Stock Products
+  10. Record Sales and Generate Bill
+  11. Sales Report
+  12. Inventory Report
+  13. Stock Transaction History
+  14. Add Employee
+  15. View Employees
+  16. Exit
+==============================================
+> 
+Thank you for using BOUTIQUE PRO. Goodbye!
